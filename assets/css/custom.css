@@ -1,0 +1,178 @@
+@media print{*{-webkit-print-color-adjust:exact}.btn-u,.header,.footer-v1,.breadcrumbs,#topcontrol{display:none}.panel{border:0}}.invoice-header{color:#555;overflow:hidden;margin-bottom:40px}.invoice-header h2{font-size:30px}.invoice-header .invoice-numb{font-size:16px;text-align:right}.invoice-header .invoice-numb span{color:777;display:block;font-size:13px}.invoice-info{margin-bottom:10px}.invoice-info h2{color:#555;font-size:18px}address{line-height:20px}.invoice-total-info{margin-bottom:30px}.invoice-total-info li{font-size:14px;margin-bottom:5px;font-family:'Open Sans'}.reg-page{color:#555;padding:30px;background:#fefefe;border:solid 1px #eee;box-shadow:0 0 3px #eee}.reg-header{color:#555;text-align:center;margin-bottom:35px;border-bottom:solid 1px #eee}.reg-header h2{font-size:24px;margin-bottom:15px}.reg-page label{color:#777}
+/*Parallax Block
+------------------------------------*/
+.parallax-bg {
+  position: relative;
+  background: url(../../img/bg/25.jpg) 50% no-repeat fixed;
+}
+
+.parallax-bg:before {
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  background: rgba(255,255,255,0.85); 
+}
+
+.parallax-about .info-blocks-v2 {
+    margin-bottom: 5px;
+}
+
+.parallax-about .title-box-v2 p,
+.parallax-about .title-box-v2 h2 {
+    color: #585f69;
+    position: relative;
+}
+
+/*Contacts
+------------------------------------*/
+.contacts h3 {
+    margin-top: 0;
+}
+
+.contacts hr {
+    margin: 10px 0;
+}
+
+/*Our-Location
+------------------------------------*/
+.our-location .map {
+    height: 220px;
+}
+
+/* important! bootstrap sets max-width on img to 100% which conflicts with google map canvas*/
+.our-location .map img {
+    max-width: none;
+}
+
+.our-location h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/*Our-clients*/
+.our-location .our-clients {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.our-location .our-clients li {
+    padding: 0;
+    margin: 1px -1px;
+    border: 1px solid #eee;
+}
+
+.our-location .our-clients img {
+    width: 121px;
+    height: auto;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.our-location .our-clients li:hover {
+    border-color: #ccc;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.about-list-style li {
+    margin-bottom: 7px;
+}
+
+.about-list-style li i.fa,
+.about-list-style li i.icon {
+    margin-right: 5px;
+}
+
+/*Check-style in Responsive*/
+@media (max-width: 500px) {
+    .our-location .about-list-style-in {
+        width: 100% !important;
+    }
+}
+.who li {
+    margin-bottom: 5px;
+}
+.who li i {
+    color: #FF9800;
+    font-size: 13px;
+    min-width: 15px;
+    margin-right: 8px;
+    text-align: center;
+    position: relative;
+}
+.who li a {
+    color: #FF9800;
+}
+.who li a:hover {
+    color: #D47E00;
+}
+.who li:hover a:hover {
+    text-decoration: none;
+}
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+    width: 25%;
+    cursor: pointer;
+    float: left;
+}
+.item .thumb img {
+    width: 100%;
+    margin: 2px;
+}
+.item img {
+    width: 100%;    
+}
+@media screen and (max-height: 575px)
+{
+    #rc-imageselect, .g-recaptcha 
+    {
+        transform:scale(0.775);
+        transform-origin:0;
+        transform:scale(0.775);
+        transform-origin:0 0;
+        -webkit-transform:scale(0.775);
+        transform:scale(0.775);
+        -webkit-transform-origin:0 0;
+        transform-origin:0 0;
+
+    }
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background: transparent;
+}
+
+.one-page-header .dropdown-menu>li a:hover {
+    color: #ff9800;
+}
+
+.box-wrapper {
+    padding: 5px;
+}
+
+.box-wrapper .details {
+    padding: 5px;
+    margin: 5px;
+    background: #f3f3f3;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+}
+
+.box-wrapper .details p {
+    padding-top: 10px;
+}
+
+.box-wrapper .details span {
+    display: block;
+}
+
+.box-wrapper .details img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
